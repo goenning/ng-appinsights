@@ -1,0 +1,12 @@
+- Create Repo
+- Update README.md with example
+- Create an example app
+- defer AI loading
+- Auto Track Page Views
+- setup window.onerror automatically
+- expose an ErrorHandler
+- if app is not loaded yet, put items in a queue. (is this handled by AI-JS?)
+
+
+- NGRX Extension? (maybe create an Issue)
+- Schematics? (maybe create an Issue)
