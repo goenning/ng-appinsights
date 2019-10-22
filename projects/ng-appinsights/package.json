@@ -1,12 +1,42 @@
 {
   "name": "ng-appinsights",
-  "version": "0.0.1",
+  "version": "0.0.4",
+  "homepage": "https://github.com/goenning/ng-appinsights",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goenning/ng-appinsights"
+  },
+  "author": {
+    "name": "goenning",
+    "email": "me@goenning.net",
+    "url": "https://goenning.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goenning/ng-appinsights/issues"
+  },
   "peerDependencies": {
-    "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0",
-    "@angular/router": "^8.0.0"
+    "@angular/core": ">=6.0.0 <9.0.0"
   },
   "dependencies": {
     "@microsoft/applicationinsights-web": "^2.3.0"
+  },
+  "keywords": [
+    "angular",
+    "azure",
+    "application insights",
+    "microsoft",
+    "app insights"
+  ],
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public_api.ts",
+      "umdModuleIds": {
+        "@microsoft/applicationinsights-web": "ApplicationInsightsWeb"
+      }
+    },
+    "whitelistedNonPeerDependencies": [
+      "@microsoft/applicationinsights-web"
+    ]
   }
 }

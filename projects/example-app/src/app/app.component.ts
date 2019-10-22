@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppInsightsService } from 'projects/ng-appinsights/src/public-api';
+import { AppInsightsService } from 'projects/ng-appinsights/src';
 
 @Component({
   selector: 'app-root',

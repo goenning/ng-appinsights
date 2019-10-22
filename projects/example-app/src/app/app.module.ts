@@ -3,7 +3,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { APP_INSIGHTS_CONFIG, AppInsightsErrorHandler } from 'projects/ng-appinsights/src/public-api';
+import { APP_INSIGHTS_CONFIG, AppInsightsErrorHandler } from 'projects/ng-appinsights/src';
 
 @NgModule({
   declarations: [
