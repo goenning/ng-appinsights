@@ -18,7 +18,8 @@ import { APP_INSIGHTS_CONFIG, AppInsightsErrorHandler } from 'projects/ng-appins
     {
       provide: APP_INSIGHTS_CONFIG,
       useValue: {
-        instrumentationKey: '9869de23-54e7-44ca-be03-15e92cfdf551'
+        instrumentationKey: '9869de23-54e7-44ca-be03-15e92cfdf551',
+        enableAutoRouteTracking: true,
       }
     }
   ],
