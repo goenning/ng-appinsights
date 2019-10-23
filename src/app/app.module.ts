@@ -1,17 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { APP_INSIGHTS_CONFIG, AppInsightsErrorHandler } from 'projects/ng-appinsights/src';
+import { AppInsightsErrorHandler, APP_INSIGHTS_CONFIG } from 'projects/ng-appinsights/src';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [
     { provide: ErrorHandler, useClass: AppInsightsErrorHandler },
