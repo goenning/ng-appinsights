@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:lib": "ng build ng-appinsights",
+    "build:lib": "ng build ng-appinsights && cp README.md ./projects/ng-appinsights/dist && cp LICENSE ./projects/ng-appinsights/dist",
     "test:lib": "ng test ng-appinsights",
     "lint:lib": "ng lint ng-appinsights"
   },
