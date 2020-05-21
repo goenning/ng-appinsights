@@ -16,10 +16,10 @@
     "url": "https://github.com/goenning/ng-appinsights/issues"
   },
   "peerDependencies": {
-    "@angular/core": ">=6.0.0 <9.0.0"
+    "@angular/core": ">=9.0.0 <10.0.0"
   },
   "dependencies": {
-    "@microsoft/applicationinsights-web": "^2.3.0"
+    "@microsoft/applicationinsights-web": "^2.5.4"
   },
   "keywords": [
     "angular",
