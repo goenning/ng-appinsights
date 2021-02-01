@@ -44,7 +44,7 @@ import { APP_INSIGHTS_CONFIG } from 'ng-appinsights';
 export class AppModule { }
 ```
 
-Import the `AppInsightsService` into your components and use the available tracking methods:
+Import the `AppInsightsService` into your components and use the available tracking methods.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -89,7 +89,6 @@ export class MyComponent {
   }
 
   init(): void {
-    this.count++;
     this.appInsights.init({
       instrumentationKey: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx',
     });
@@ -99,7 +98,7 @@ export class MyComponent {
 
 ## Global Error Handler
 
-You may also include the built-in Error Handler which will send to AI all errors that occur inside Angular.
+You may also include the built-in Error Handler which will automatically send exception events to AI for every errors that occurs inside your application.
 
 ```typescript
 import { AppInsightsErrorHandler } from 'ng-appinsights';
