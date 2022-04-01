@@ -25,6 +25,9 @@
       ],
       "ng-appinsights/*": [
         "dist/ng-appinsights/*"
+      ],
+      "@angular/*": [
+        "./node_modules/@angular/*"
       ]
     }
   }
